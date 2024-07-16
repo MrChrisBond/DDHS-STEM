@@ -1,0 +1,31 @@
+header {
+   background-color: #333;
+   color: #fff;
+   padding: 10px 0;
+}
+
+.logo-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.logo {
+   max-height: 50px;
+   margin-right: 15px;
+}
+
+ div {
+    
+    margin-left: 100px;
+
+}
+
+ body {
+
+    background-color: rgb(48, 145, 255);
+ }
+
+ img {
+    margin-left: 400px;
+ }

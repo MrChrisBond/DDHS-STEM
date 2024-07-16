@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body, html {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    max-height: 50px;
+    margin-right: 15px;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styles */
+main {
+    flex: 1;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-section,
+.right-section {
+    width: 48%;
+}
+
+.left-section h2,
+.right-section h2 {
+    margin-bottom: 10px;
+}
+
+.left-section ul,
+.right-section ul {
+    list-style: none;
+}
+
+.left-section ul li,
+.right-section ul li {
+    margin-bottom: 5px;
+}
+
+.left-section ul li a,
+.right-section ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.left-section ul li a:hover,
+.right-section ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#artCanvas {
+    background-image: url('../images/background.jpg'); /* Replace with your actual image path */
+    background-size: cover; /* This ensures that the background covers the entire canvas area */
+    background-repeat: no-repeat;
+}
+
+#swampCanvas {
+    background-image: url('../images/shekkky.jpg'); /* Replace with your actual image path */
+    background-size: cover; /* This ensures that the background covers the entire canvas area */
+    background-repeat: no-repeat;
+}
+
+
+#berkCanvas {
+    background-image: url('../images/httyd2.webp'); /* Replace with your actual image path */
+    background-size: cover; /* This ensures that the background covers the entire canvas area */
+    background-repeat: no-repeat;
+}
+
+#hyruleCanvas {
+    background-image: url('../images/backround.jpg'); /* Replace with your actual image path */
+    background-size: cover; /* This ensures that the background covers the entire canvas area */
+    background-repeat: no-repeat;
+}
+
+#epicalCanvas {
+    background-color: rgb(48, 145, 255);
+    background-size: cover; /* This ensures that the background covers the entire canvas area */
+    background-repeat: no-repeat;
+}
+
+
+/* Homepage Class Styling */
+body.homepage {
+    background-color: pink;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}

@@ -1,0 +1,17 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#artCanvas {
+    background-image: url('images/httyd2.webp'); /* Replace with your actual image path */
+    background-size: cover; /* This ensures that the background covers the entire canvas area */
+    background-repeat: no-repeat;
+}
+
+
+
+
