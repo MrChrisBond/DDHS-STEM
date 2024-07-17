@@ -14,7 +14,7 @@
     <main>
         <div class="content">
             <div class="left-section">
-                <h2>Student Webpages</h2>
+                <h2>Student Websites</h2>
                 <ul>
                     <li><a href="/pages/epical.php">Epical</a></li>
                     <li><a href="/pages/student1.php">Student 1</a></li>
