@@ -14,7 +14,7 @@ body, html {
 }
 
 header {
-    background-color: #493258;
+    background-color: #525252;
     color: #fff;
     padding: 10px 0;
 }
@@ -149,4 +149,37 @@ body.homepage {
 
 body.shop {
     background-color: plum;
+}
+
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 20px;
+}
+
+.image-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.image-box img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.image-box h2 {
+    font-size: 1.5em;
+    margin: 15px;
+}
+
+.image-box p {
+    font-size: 1em;
+    margin: 0 15px 15px;
+    color: #666;
 }
