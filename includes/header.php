@@ -6,6 +6,8 @@
     <nav>
         <ul>
             <li><a href="../index.php">Home</a></li>
+            <li><a href="../shop/gallery.html">Shop</a></li>
+
         </ul>
     </nav>
 </header>
