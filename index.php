@@ -11,6 +11,10 @@
 
     <?php include 'includes/header.php'; ?>
         
+    <div class="custom-cursor" id="cursor"></div>
+
+    <script src="/assets/js/cursor.js"></script>
+
     <main>
         <div class="content">
             <div class="left-section">
