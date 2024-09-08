@@ -11,6 +11,7 @@ body, html {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    cursor: none;
 }
 
 header {
@@ -147,6 +148,23 @@ body.homepage {
     min-height: 100vh;
 }
 
+
+.custom-cursor {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    position: absolute;
+    pointer-events: none; /* Prevent the cursor from interfering with elements */
+    transform: translate(-50%, -50%);
+    transition: transform 0.1s ease-out;
+    z-index: 1000;
+}
+
+.custom-cursor.active {
+    transform: scale(2); /* Enlarge the cursor on interaction */
+    background-color: rgba(0, 0, 0, 0.2);
+
 body.shop {
     background-color: plum;
 }
@@ -182,4 +200,5 @@ body.shop {
     font-size: 1em;
     margin: 0 15px 15px;
     color: #666;
+
 }
